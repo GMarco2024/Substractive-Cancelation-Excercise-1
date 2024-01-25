@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		906F53FB2B62D84000446511 /* Substractive_Cancelation_Excercise_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F53FA2B62D84000446511 /* Substractive_Cancelation_Excercise_1App.swift */; };
+		906F53FD2B62D84000446511 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F53FC2B62D84000446511 /* ContentView.swift */; };
+		906F53FF2B62D84100446511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906F53FE2B62D84100446511 /* Assets.xcassets */; };
+		906F54032B62D84100446511 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906F54022B62D84100446511 /* Preview Assets.xcassets */; };
+		906F540D2B62D84100446511 /* Substractive_Cancelation_Excercise_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F540C2B62D84100446511 /* Substractive_Cancelation_Excercise_1Tests.swift */; };
+		906F54172B62D84100446511 /* Substractive_Cancelation_Excercise_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F54162B62D84100446511 /* Substractive_Cancelation_Excercise_1UITests.swift */; };
+		906F54192B62D84100446511 /* Substractive_Cancelation_Excercise_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F54182B62D84100446511 /* Substractive_Cancelation_Excercise_1UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		906F54092B62D84100446511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 906F53EF2B62D84000446511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 906F53F62B62D84000446511;
+			remoteInfo = "Substractive Cancelation Excercise 1";
+		};
+		906F54132B62D84100446511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 906F53EF2B62D84000446511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 906F53F62B62D84000446511;
+			remoteInfo = "Substractive Cancelation Excercise 1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		906F53F72B62D84000446511 /* Substractive Cancelation Excercise 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Substractive Cancelation Excercise 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		906F53FA2B62D84000446511 /* Substractive_Cancelation_Excercise_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substractive_Cancelation_Excercise_1App.swift; sourceTree = "<group>"; };
+		906F53FC2B62D84000446511 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		906F53FE2B62D84100446511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		906F54002B62D84100446511 /* Substractive_Cancelation_Excercise_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Substractive_Cancelation_Excercise_1.entitlements; sourceTree = "<group>"; };
+		906F54022B62D84100446511 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		906F54082B62D84100446511 /* Substractive Cancelation Excercise 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Substractive Cancelation Excercise 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		906F540C2B62D84100446511 /* Substractive_Cancelation_Excercise_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substractive_Cancelation_Excercise_1Tests.swift; sourceTree = "<group>"; };
+		906F54122B62D84100446511 /* Substractive Cancelation Excercise 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Substractive Cancelation Excercise 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		906F54162B62D84100446511 /* Substractive_Cancelation_Excercise_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substractive_Cancelation_Excercise_1UITests.swift; sourceTree = "<group>"; };
+		906F54182B62D84100446511 /* Substractive_Cancelation_Excercise_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substractive_Cancelation_Excercise_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		906F53F42B62D84000446511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906F54052B62D84100446511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906F540F2B62D84100446511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		906F53EE2B62D84000446511 = {
+			isa = PBXGroup;
+			children = (
+				906F53F92B62D84000446511 /* Substractive Cancelation Excercise 1 */,
+				906F540B2B62D84100446511 /* Substractive Cancelation Excercise 1Tests */,
+				906F54152B62D84100446511 /* Substractive Cancelation Excercise 1UITests */,
+				906F53F82B62D84000446511 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		906F53F82B62D84000446511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				906F53F72B62D84000446511 /* Substractive Cancelation Excercise 1.app */,
+				906F54082B62D84100446511 /* Substractive Cancelation Excercise 1Tests.xctest */,
+				906F54122B62D84100446511 /* Substractive Cancelation Excercise 1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		906F53F92B62D84000446511 /* Substractive Cancelation Excercise 1 */ = {
+			isa = PBXGroup;
+			children = (
+				906F53FA2B62D84000446511 /* Substractive_Cancelation_Excercise_1App.swift */,
+				906F53FC2B62D84000446511 /* ContentView.swift */,
+				906F53FE2B62D84100446511 /* Assets.xcassets */,
+				906F54002B62D84100446511 /* Substractive_Cancelation_Excercise_1.entitlements */,
+				906F54012B62D84100446511 /* Preview Content */,
+			);
+			path = "Substractive Cancelation Excercise 1";
+			sourceTree = "<group>";
+		};
+		906F54012B62D84100446511 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				906F54022B62D84100446511 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		906F540B2B62D84100446511 /* Substractive Cancelation Excercise 1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				906F540C2B62D84100446511 /* Substractive_Cancelation_Excercise_1Tests.swift */,
+			);
+			path = "Substractive Cancelation Excercise 1Tests";
+			sourceTree = "<group>";
+		};
+		906F54152B62D84100446511 /* Substractive Cancelation Excercise 1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				906F54162B62D84100446511 /* Substractive_Cancelation_Excercise_1UITests.swift */,
+				906F54182B62D84100446511 /* Substractive_Cancelation_Excercise_1UITestsLaunchTests.swift */,
+			);
+			path = "Substractive Cancelation Excercise 1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		906F53F62B62D84000446511 /* Substractive Cancelation Excercise 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906F541C2B62D84100446511 /* Build configuration list for PBXNativeTarget "Substractive Cancelation Excercise 1" */;
+			buildPhases = (
+				906F53F32B62D84000446511 /* Sources */,
+				906F53F42B62D84000446511 /* Frameworks */,
+				906F53F52B62D84000446511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Substractive Cancelation Excercise 1";
+			productName = "Substractive Cancelation Excercise 1";
+			productReference = 906F53F72B62D84000446511 /* Substractive Cancelation Excercise 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		906F54072B62D84100446511 /* Substractive Cancelation Excercise 1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906F541F2B62D84100446511 /* Build configuration list for PBXNativeTarget "Substractive Cancelation Excercise 1Tests" */;
+			buildPhases = (
+				906F54042B62D84100446511 /* Sources */,
+				906F54052B62D84100446511 /* Frameworks */,
+				906F54062B62D84100446511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				906F540A2B62D84100446511 /* PBXTargetDependency */,
+			);
+			name = "Substractive Cancelation Excercise 1Tests";
+			productName = "Substractive Cancelation Excercise 1Tests";
+			productReference = 906F54082B62D84100446511 /* Substractive Cancelation Excercise 1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		906F54112B62D84100446511 /* Substractive Cancelation Excercise 1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906F54222B62D84100446511 /* Build configuration list for PBXNativeTarget "Substractive Cancelation Excercise 1UITests" */;
+			buildPhases = (
+				906F540E2B62D84100446511 /* Sources */,
+				906F540F2B62D84100446511 /* Frameworks */,
+				906F54102B62D84100446511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				906F54142B62D84100446511 /* PBXTargetDependency */,
+			);
+			name = "Substractive Cancelation Excercise 1UITests";
+			productName = "Substractive Cancelation Excercise 1UITests";
+			productReference = 906F54122B62D84100446511 /* Substractive Cancelation Excercise 1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		906F53EF2B62D84000446511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					906F53F62B62D84000446511 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					906F54072B62D84100446511 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 906F53F62B62D84000446511;
+					};
+					906F54112B62D84100446511 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 906F53F62B62D84000446511;
+					};
+				};
+			};
+			buildConfigurationList = 906F53F22B62D84000446511 /* Build configuration list for PBXProject "Substractive Cancelation Excercise 1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 906F53EE2B62D84000446511;
+			productRefGroup = 906F53F82B62D84000446511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				906F53F62B62D84000446511 /* Substractive Cancelation Excercise 1 */,
+				906F54072B62D84100446511 /* Substractive Cancelation Excercise 1Tests */,
+				906F54112B62D84100446511 /* Substractive Cancelation Excercise 1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		906F53F52B62D84000446511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906F54032B62D84100446511 /* Preview Assets.xcassets in Resources */,
+				906F53FF2B62D84100446511 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906F54062B62D84100446511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906F54102B62D84100446511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		906F53F32B62D84000446511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906F53FD2B62D84000446511 /* ContentView.swift in Sources */,
+				906F53FB2B62D84000446511 /* Substractive_Cancelation_Excercise_1App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906F54042B62D84100446511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906F540D2B62D84100446511 /* Substractive_Cancelation_Excercise_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906F540E2B62D84100446511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906F54172B62D84100446511 /* Substractive_Cancelation_Excercise_1UITests.swift in Sources */,
+				906F54192B62D84100446511 /* Substractive_Cancelation_Excercise_1UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		906F540A2B62D84100446511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 906F53F62B62D84000446511 /* Substractive Cancelation Excercise 1 */;
+			targetProxy = 906F54092B62D84100446511 /* PBXContainerItemProxy */;
+		};
+		906F54142B62D84100446511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 906F53F62B62D84000446511 /* Substractive Cancelation Excercise 1 */;
+			targetProxy = 906F54132B62D84100446511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		906F541A2B62D84100446511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		906F541B2B62D84100446511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		906F541D2B62D84100446511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Substractive Cancelation Excercise 1/Substractive_Cancelation_Excercise_1.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Substractive Cancelation Excercise 1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Substractive-Cancelation-Excercise-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		906F541E2B62D84100446511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Substractive Cancelation Excercise 1/Substractive_Cancelation_Excercise_1.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Substractive Cancelation Excercise 1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Substractive-Cancelation-Excercise-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		906F54202B62D84100446511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Substractive-Cancelation-Excercise-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Substractive Cancelation Excercise 1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Substractive Cancelation Excercise 1";
+			};
+			name = Debug;
+		};
+		906F54212B62D84100446511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Substractive-Cancelation-Excercise-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Substractive Cancelation Excercise 1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Substractive Cancelation Excercise 1";
+			};
+			name = Release;
+		};
+		906F54232B62D84100446511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Substractive-Cancelation-Excercise-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Substractive Cancelation Excercise 1";
+			};
+			name = Debug;
+		};
+		906F54242B62D84100446511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Substractive-Cancelation-Excercise-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Substractive Cancelation Excercise 1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		906F53F22B62D84000446511 /* Build configuration list for PBXProject "Substractive Cancelation Excercise 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906F541A2B62D84100446511 /* Debug */,
+				906F541B2B62D84100446511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906F541C2B62D84100446511 /* Build configuration list for PBXNativeTarget "Substractive Cancelation Excercise 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906F541D2B62D84100446511 /* Debug */,
+				906F541E2B62D84100446511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906F541F2B62D84100446511 /* Build configuration list for PBXNativeTarget "Substractive Cancelation Excercise 1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906F54202B62D84100446511 /* Debug */,
+				906F54212B62D84100446511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906F54222B62D84100446511 /* Build configuration list for PBXNativeTarget "Substractive Cancelation Excercise 1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906F54232B62D84100446511 /* Debug */,
+				906F54242B62D84100446511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 906F53EF2B62D84000446511 /* Project object */;
+}
