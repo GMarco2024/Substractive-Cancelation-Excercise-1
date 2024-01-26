@@ -17,8 +17,9 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Text("Quadratic Roots Calculator")
+            Text("Problem 1a - Quadratic Roots Calculator")
                 .font(.title)
+                .underline()
 
             HStack {
                 TextField("Enter coefficient a", text: $coefficientA)
@@ -39,17 +40,26 @@ struct ContentView: View {
                 let b = Double(coefficientB) ?? 0
                 let c = Double(coefficientC) ?? 0
                 
-    // This calls the function to calculate all four solutions
-                
                 roots = calculateAllQuadraticRoots(a: a, b: b, c: c)
             }
             .padding()
             
-            // This displays the roots
+            // Display the roots
             ForEach(roots, id: \.self) { root in
                 Text(root)
                     .padding()
             }
+            
+            // Title for errors in computed answers
+            Text("Problem 1b - Errors in Computed Answers")
+                .font(.title)
+                .underline()
+                .padding ()
+            
+            // Title for errors in computed answers
+            Text("For the test case in which a = 1, b = 1, c = 10^-n")
+                .font(.headline)
+                .padding()
         }
         .padding()
     }
@@ -71,7 +81,7 @@ struct ContentView: View {
             let imaginaryPart = sqrt(abs(discriminant)) / (2 * a)
             roots.append("Root 1: \(realPart) + \(imaginaryPart)i, Root 2: \(realPart) - \(imaginaryPart)i")
             
-     // Also add roots when c is negative
+            // Also add roots when c is negative
             if c < 0 {
                 _ = (-b + sqrt(-c))
                 _ = (-b - sqrt(-c))
@@ -89,9 +99,6 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-#Preview {
-    ContentView()
-}
 
 
 
