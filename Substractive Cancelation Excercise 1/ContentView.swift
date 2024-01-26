@@ -39,7 +39,8 @@ struct ContentView: View {
                 let b = Double(coefficientB) ?? 0
                 let c = Double(coefficientC) ?? 0
                 
-                // Calls the function to calculate all four solutions
+    // This calls the function to calculate all four solutions
+                
                 roots = calculateAllQuadraticRoots(a: a, b: b, c: c)
             }
             .padding()
@@ -70,7 +71,7 @@ struct ContentView: View {
             let imaginaryPart = sqrt(abs(discriminant)) / (2 * a)
             roots.append("Root 1: \(realPart) + \(imaginaryPart)i, Root 2: \(realPart) - \(imaginaryPart)i")
             
-            // Also add roots when c is negative
+     // Also add roots when c is negative
             if c < 0 {
                 _ = (-b + sqrt(-c))
                 _ = (-b - sqrt(-c))

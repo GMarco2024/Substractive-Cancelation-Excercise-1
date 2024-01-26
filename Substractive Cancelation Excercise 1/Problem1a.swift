@@ -1,10 +1,9 @@
 //
 //  ContentView.swift
 //
-//  Homework 2
-//  GUI for Problem 1a
+//  Homework 2 - Problem 1a
 //
-//  Write a program that calculates all four solutionsfor arbituary values of a, b, and c.
+//  Write a program that calculates all four solutions for arbituary values of a, b, and c.
 //
 //  Marco Gonzalez PHYS-440
 //
@@ -16,7 +15,7 @@ func findQuadraticRoots(a: Double, b: Double, c: Double) {
     // Calculate the discriminant
     let discriminant = b * b - 4 * a * c
     
-    // Check if roots are real or complex
+    // This checks if roots are real or complex
     if discriminant > 0 {
         // Two real and distinct roots
         let root1 = (-b + sqrt(discriminant)) / (2 * a)
