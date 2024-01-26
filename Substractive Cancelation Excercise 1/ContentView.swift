@@ -57,8 +57,9 @@ struct ContentView: View {
                 .padding ()
             
             // Title for errors in computed answers
-            Text("For the test case in which a = 1, b = 1, c = 10^-n")
+            Text("Our test case for quadratic roots is a = 1, b = 1, c = 10^-n. Press the button for when N = 1,2,3..5.")
                 .font(.headline)
+                .fontWeight(.regular)
                 .padding()
         }
         .padding()
