@@ -49,14 +49,12 @@ struct ContentView: View {
                 // Calculate roots based on user input
                 roots = findQuadraticRoots(a: a, b: b, c: c)
             }
-            
             .padding()
             
             // Display the roots vertically for aesthetics
             VStack(alignment: .leading) {
                 ForEach(roots, id: \.self) { root in
                     Text(root)
-                    
                 }
             }
 
@@ -87,16 +85,26 @@ struct ContentView: View {
                 let nValue = Double(n) ?? 0
                 investigationResults = conductInvestigation(n: Int(nValue))
             }
-            
             .padding()
             
             // Display the investigation results
             VStack(alignment: .leading) {
                 ForEach(investigationResults, id: \.self) { result in
                     Text(result)
-                        
                 }
             }
+            
+            // Title for Problem1c
+            Text("Problem1c - Precise Solutions")
+                .font(.title)
+                .padding()
+                .underline()
+            
+            // Description of the test case for quadratic roots
+            Text("Displayed results from input n. Notice how C decreases as n increases?")
+                .font(.headline)
+                .fontWeight(.regular)
+            
         }
         .padding()
     }
@@ -107,6 +115,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
 
 
 
