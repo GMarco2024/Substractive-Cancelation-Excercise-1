@@ -49,13 +49,14 @@ struct ContentView: View {
                 // Calculate roots based on user input
                 roots = findQuadraticRoots(a: a, b: b, c: c)
             }
+            
             .padding()
             
             // Display the roots vertically for aesthetics
             VStack(alignment: .leading) {
                 ForEach(roots, id: \.self) { root in
                     Text(root)
-                        .padding()
+                    
                 }
             }
 
@@ -63,6 +64,7 @@ struct ContentView: View {
             Text("Problem 1b - Errors in Computed Answers")
                 .font(.title)
                 .underline()
+                .padding()
             
             // Description of the test case for quadratic roots
             Text("For the test case in which a = 1, b = 1, c = 10^-n, type in a value for n.")
