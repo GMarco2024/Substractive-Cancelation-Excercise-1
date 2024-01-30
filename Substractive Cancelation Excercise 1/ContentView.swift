@@ -1,3 +1,12 @@
+//
+//  ContentView.swift
+//
+//  Homework 2 - ContentView.swift
+//  GUI for Homework 2
+//
+//  Marco Gonzalez PHYS-440
+//
+
 import SwiftUI
 
 struct ContentView: View {
