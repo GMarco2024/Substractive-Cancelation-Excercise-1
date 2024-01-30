@@ -87,13 +87,14 @@ struct ContentView: View {
                 let nValue = Double(n) ?? 0
                 investigationResults = conductInvestigation(n: Int(nValue))
             }
+            
             .padding()
             
             // Display the investigation results
             VStack(alignment: .leading) {
                 ForEach(investigationResults, id: \.self) { result in
                     Text(result)
-                        .padding()
+                        
                 }
             }
         }
