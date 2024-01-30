@@ -59,3 +59,4 @@ func findQuadraticRoots(a: Double, b: Double, c: Double) -> [Double]? {
         return nil
     }
 }
+

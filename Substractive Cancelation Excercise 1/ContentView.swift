@@ -73,15 +73,18 @@ struct ContentView: View {
             Text("Problem 1b - Errors in Computed Answers")
                 .font(.title)
                 .underline()
-                .padding ()
+             
             
 // Description of the test case for quadratic roots
             
-            Text("For the test case in which a = 1, b = 1, c = 10^-n, press the button for n = 1, 2, 3, ... 5.")
+            Text("For the test case in which a = 1, b = 1, c = 10^-n, type in a value for n.")
                 .font(.headline)
                 .fontWeight(.regular)
-                .padding()
-        }
+            
+            Text("NOTE: This will generate values up to your input for n.")
+                .font(.headline)
+                .fontWeight(.regular)
+                .foregroundColor(.red)        }
         .padding()
     }
     
@@ -134,4 +137,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
 
