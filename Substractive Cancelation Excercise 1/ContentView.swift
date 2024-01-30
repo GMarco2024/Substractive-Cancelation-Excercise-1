@@ -18,7 +18,7 @@ struct ContentView: View {
     @State private var coefficientB: String = ""
     @State private var coefficientC: String = ""
     @State private var roots: [String] = []
-
+    @State private var n: String = ""
     var body: some View {
         VStack {
 
@@ -86,6 +86,11 @@ struct ContentView: View {
                 .fontWeight(.regular)
                 .foregroundColor(.red)        }
         .padding()
+        
+        // Text field for input of 'n'
+                    TextField("Enter value for n", text: $n)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .padding()
     }
     
 // Function to calculate all four solutions for the input values of a,b, and c.
