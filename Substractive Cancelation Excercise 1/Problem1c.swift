@@ -1,8 +1,9 @@
 //
 //  Problem1c.swift
-//  Substractive Cancelation Excercise 1
 //
-//  Created by PHYS 440 Marco on 1/30/24.
+//  Homework 2 - Problem 1c
 //
-
-import Foundation
+//  Extend the program so that it indicates precise solutions.
+//
+//  Marco Gonzalez PHYS-440
+//
