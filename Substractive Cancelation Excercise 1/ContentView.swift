@@ -75,13 +75,13 @@ struct ContentView: View {
                 .italic()
                 .foregroundColor(.red)
             
-            // Text field for input of 'n'
             TextField("Enter value for n", text: $n)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
+                .frame(maxWidth: 330) // Adjust the value as needed
                 .padding()
             
             // Button to trigger the calculation of Problem1b
-            Button("Calculate Problem1b") {
+            Button("Calculate n") {
                 let nValue = Double(n) ?? 0
                 investigationResults = conductInvestigation(n: nValue)
             }
