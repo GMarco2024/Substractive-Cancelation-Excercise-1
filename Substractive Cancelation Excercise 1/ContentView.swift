@@ -85,7 +85,7 @@ struct ContentView: View {
             // Button to trigger the calculation of Problem1b
             Button("Calculate n") {
                 let nValue = Double(n) ?? 0
-                investigationResults = conductInvestigation(n: nValue)
+                investigationResults = conductInvestigation(n: Int(nValue))
             }
             .padding()
             
