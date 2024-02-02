@@ -6,30 +6,41 @@
 //
 
 import XCTest
+@testable import Substractive_Cancelation_Excercise_1
 
-final class Substractive_Cancelation_Excercise_1Tests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+class Substractive_Cancelation_Excercise_1Tests: XCTestCase {
+
+    // Test cases for findQuadraticRoots function
+    func testFindQuadraticRoots() {
+        // Test case 1: discriminant > 0
+        XCTAssertEqual(findQuadraticRoots(a: 1, b: 0, c: -1), ["Root 1: 1.0", "Root 2: -1.0"])
+        
+        // Test case 2: discriminant == 0
+        XCTAssertEqual(findQuadraticRoots(a: 1, b: -2, c: 1), ["Root 1: 1.0", "Root 2: 1.0"])
+        
+       
+        
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    // Test cases for conductInvestigation function
+    func testConductInvestigation() {
+        // Test case 1: n = 1
+        XCTAssertEqual(conductInvestigation(n: 1), ["For n = 1, c = 0.1"])
+        
+        // Test case 2: n = 2
+        XCTAssertEqual(conductInvestigation(n: 2), ["For n = 1, c = 0.1", "For n = 2, c = 0.01"])
+        
+        // Test case 3: n = 3
+        XCTAssertEqual(conductInvestigation(n: 3), ["For n = 1, c = 0.1", "For n = 2, c = 0.01", "For n = 3, c = 0.001"])
+        
+        // Test case 4: n = 4
+        XCTAssertEqual(conductInvestigation(n: 4), ["For n = 1, c = 0.1", "For n = 2, c = 0.01", "For n = 3, c = 0.001", "For n = 4, c = 0.0001"])
+        
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
+
+    
+        
+    
+
