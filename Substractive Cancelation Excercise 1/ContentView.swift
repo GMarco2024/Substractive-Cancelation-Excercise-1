@@ -97,7 +97,7 @@ struct ContentView: View {
                 }
                 
                 // Title for Problem1c
-                Text("Problem1c - Precise Solutions")
+                Text("Problem 1c - Precise Solutions")
                     .font(.title)
                     .padding()
                     .underline()
