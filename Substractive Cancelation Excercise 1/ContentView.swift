@@ -78,7 +78,7 @@ struct ContentView: View {
                 
                 TextField("Enter value for n", text: $n)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .frame(maxWidth: 330) // Adjust the value as needed
+                    .frame(maxWidth: 330)
                     .padding()
                 
                 // Button to trigger the calculation of Problem1b
@@ -107,14 +107,18 @@ struct ContentView: View {
                     .font(.headline)
                     .fontWeight(.regular)
                 
+                // Display the investigation results
+                VStack(alignment: .leading) {
+                    ForEach(investigationResults, id: \.self) { result in
+                        Text(result)
+                
+                
             }
             .padding()
         }
     }
     
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
+   
         }
     }
 }
