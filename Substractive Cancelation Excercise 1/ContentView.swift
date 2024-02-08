@@ -106,11 +106,11 @@ struct ContentView: View {
                 Text("Displayed results from input n. Notice how C decreases as n increases?")
                     .font(.headline)
                     .fontWeight(.regular)
-                
                 // Display the investigation results
                 VStack(alignment: .leading) {
                     ForEach(investigationResults, id: \.self) { result in
                         Text(result)
+                     
                 
                 
             }
