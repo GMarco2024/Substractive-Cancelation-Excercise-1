@@ -10,28 +10,28 @@
 
 import Foundation
 
-// Function to conduct the investigation for Problem 1b and return the results
-
 func conductInvestigation(n: Int) -> [String] {
+    // Initialize an empty array to hold the results of each test case.
     var results: [String] = []
 
-// Iterate through values of n from 1 to the specified value
-   
+    // Loop through values of 'n' starting from 1 up to and including the specified maximum value.
+    
     for i in 1...n {
-     
-// Calculate c based on the provided formula c = 10^(-n)
        
+        
+    // Calculate the 'c' coefficient using the formula c = 10^(-n).
+    // This progressively decreases 'c', increasing the potential for subtractive cancellation errors.
         let c = pow(10, -Double(i))
 
-       
-// Append results for each iteration
+    // Append a descriptive string for each iteration to the results array.
+    // This string includes the current value of 'n' and the calculated value of 'c'.
+    // This serves to document how 'c' changes as 'n' increases and to facilitate analysis of the impact on calculation accuracy.
         
         results.append("For n = \(i), c = \(c)")
         
     }
 
     return results
-    
 }
 
 

@@ -10,7 +10,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     // State variables to hold coefficients and roots
+    
     @State private var coefficientA: String = ""
     @State private var coefficientB: String = ""
     @State private var coefficientC: String = ""
@@ -21,13 +23,17 @@ struct ContentView: View {
     var body: some View {
         ScrollView {
             VStack {
+               
                 // Title for the quadratic roots calculator
+                
                 Text("Problem 1a - Quadratic Roots Calculator")
                     .font(.title)
                     .underline()
                 
                 HStack {
+                
                     // Text fields for user input of coefficients
+                    
                     TextField("Enter coefficient a", text: $coefficientA)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
@@ -41,7 +47,8 @@ struct ContentView: View {
                         .padding()
                 }
                 
-                // Button to trigger the calculation of roots
+              // Button to trigger the calculation of roots
+              
                 Button("Calculate Roots") {
                     let a = Double(coefficientA) ?? 0
                     let b = Double(coefficientB) ?? 0
@@ -53,19 +60,22 @@ struct ContentView: View {
                 .padding()
                 
                 // Display the roots vertically for aesthetics
+               
                 VStack(alignment: .leading) {
                     ForEach(roots, id: \.self) { root in
                         Text(root)
                     }
                 }
                 
-                // Title for errors in computed answers
+                // Title
+              
                 Text("Problem 1b - Errors in Computed Answers")
                     .font(.title)
                     .underline()
                     .padding()
                 
                 // Description of the test case for quadratic roots
+              
                 Text("For the test case in which a = 1, b = 1, c = 10^-n, type in a value for n.")
                     .font(.headline)
                     .fontWeight(.regular)
@@ -82,6 +92,7 @@ struct ContentView: View {
                     .padding()
                 
                 // Button to trigger the calculation of Problem1b
+              
                 Button("Calculate n") {
                     let nValue = Double(n) ?? 0
                     investigationResults = conductInvestigation(n: Int(nValue))
@@ -89,6 +100,7 @@ struct ContentView: View {
                 .padding()
                 
                 // Display the investigation results
+              
                 VStack(alignment: .leading) {
                     ForEach(investigationResults, id: \.self) { result in
                         Text(result)
@@ -97,16 +109,19 @@ struct ContentView: View {
                 }
                 
                 // Title for Problem1c
+              
                 Text("Problem 1c - Precise Solutions")
                     .font(.title)
                     .padding()
                     .underline()
                 
                 // Description of the test case for quadratic roots
+              
                 Text("Displayed results from input n. Notice how C decreases as n increases?")
                     .font(.headline)
                     .fontWeight(.regular)
                 // Display the investigation results
+              
                 VStack(alignment: .leading) {
                     ForEach(investigationResults, id: \.self) { result in
                         Text(result)
