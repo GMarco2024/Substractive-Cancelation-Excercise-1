@@ -15,7 +15,6 @@
 		906F54172B62D84100446511 /* Substractive_Cancelation_Excercise_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F54162B62D84100446511 /* Substractive_Cancelation_Excercise_1UITests.swift */; };
 		906F54192B62D84100446511 /* Substractive_Cancelation_Excercise_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F54182B62D84100446511 /* Substractive_Cancelation_Excercise_1UITestsLaunchTests.swift */; };
 		906F54262B62D85C00446511 /* Problem 1a.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906F54252B62D85C00446511 /* Problem 1a.swift */; };
-		90AD68C62B697ACC00634BD2 /* Problem 1c.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AD68C52B697ACC00634BD2 /* Problem 1c.swift */; };
 		90AE161B2B643882009AAE30 /* Problem 1b.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE161A2B643882009AAE30 /* Problem 1b.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +48,6 @@
 		906F54162B62D84100446511 /* Substractive_Cancelation_Excercise_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substractive_Cancelation_Excercise_1UITests.swift; sourceTree = "<group>"; };
 		906F54182B62D84100446511 /* Substractive_Cancelation_Excercise_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substractive_Cancelation_Excercise_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		906F54252B62D85C00446511 /* Problem 1a.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 1a.swift"; sourceTree = "<group>"; };
-		90AD68C52B697ACC00634BD2 /* Problem 1c.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 1c.swift"; sourceTree = "<group>"; };
 		90AE161A2B643882009AAE30 /* Problem 1b.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 1b.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +103,6 @@
 				906F53FC2B62D84000446511 /* ContentView.swift */,
 				906F54252B62D85C00446511 /* Problem 1a.swift */,
 				90AE161A2B643882009AAE30 /* Problem 1b.swift */,
-				90AD68C52B697ACC00634BD2 /* Problem 1c.swift */,
 				906F53FE2B62D84100446511 /* Assets.xcassets */,
 				906F54002B62D84100446511 /* Substractive_Cancelation_Excercise_1.entitlements */,
 				906F54012B62D84100446511 /* Preview Content */,
@@ -270,7 +267,6 @@
 			files = (
 				906F54262B62D85C00446511 /* Problem 1a.swift in Sources */,
 				906F53FD2B62D84000446511 /* ContentView.swift in Sources */,
-				90AD68C62B697ACC00634BD2 /* Problem 1c.swift in Sources */,
 				906F53FB2B62D84000446511 /* Substractive_Cancelation_Excercise_1App.swift in Sources */,
 				90AE161B2B643882009AAE30 /* Problem 1b.swift in Sources */,
 			);
